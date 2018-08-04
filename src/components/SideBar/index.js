@@ -31,7 +31,7 @@ export default class SideBar extends Component {
     } catch (err) {
       this.setState({ repError: true });
     } finally {
-      this.setState({ loading: false });
+      this.setState({ loading: false, input: '' });
     }
   };
 
